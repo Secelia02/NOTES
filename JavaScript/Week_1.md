@@ -18,8 +18,24 @@
   - Undefined
   - bigInt
 
+# Arithmetic Operators
+  - `+` addition
+  - `-` subtraction
+  - `*` multiplication
+  - `/` division
+  - `%` modulo
+
+# Assignment Operators
+ - `+=` addition assignment
+ - `-+` subtraction assignment
+ - `*=` multiplication assignment
+ - `/=` division assignment
+
+# Variables
+  - Used whenever there is a need to store a piece of data
+
 # Keywords
-  - Used to name variables
+  - Used to declare, name, variables
   1. let - can be reassigned
   2. const - cannot be reassigned, constant
   3. var - used before 2016, variable. Can be reassigned
@@ -29,6 +45,10 @@
   - in console.log(), console is the object and log() is the function
   - log is a built-in method, or function, of log
   - log is a property of console
+  - alert()--output on the page as a pop-up
+  - JavaScript is zero-based
+  - node name - another name for elements or tags
+  - string.length - The length property returns the number of characters that make up the string
 
 # String Concatenation
   - combining strings using +
@@ -46,3 +66,32 @@
   - can have any name
   - camelCase
   - should be descriptive
+
+# DOM
+  - document object model
+  - allows interaction with the content, structure and style of HTML docs
+  - innerHTML--whatever text is between the opening and closing tags of an element
+  - document.querySelector
+  - document.querySelectorAll
+  - document.getElementById
+  - document.getElementsByClassName
+  - array.length
+  - array[0].style = "color: pink;"--can manipulate CSS in JavaScript
+  - `window.onload = function() {
+    alert("alert");
+  }`--alert pops up at the loading of the page
+  - modern way to write this:
+  window.addEventListener("load", function() {
+    alert("alert");
+  })
+
+# Methods
+  - Return information about an object
+  - Are called by appending an instance with a period, the method name, and parentheses
+  - `Math.random();`--random is the method. 
+  - function is used interchangably 
+
+# Built-in Objects
+  - contain methods that can be called by appending the object name with a period, the method name, and a set of parentheses
+  - in `Math.random();`, Math is the built-in object
+
