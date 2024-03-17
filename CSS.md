@@ -1,6 +1,11 @@
 # CSS Formatting
-
+- selector {
+  property: value;
+}
 - use a semicolon at the end of each line
+
+# How to link CSS to HTML
+- `<link rel="stylesheet" href="style.css">`
 
 # Text Align
 
@@ -142,8 +147,8 @@
 }`
 *First value is the thickness, second one the style (none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset), and third one is the color.*
 
-# Radius
-- /* Light rounded corner all around the element */
+# Border-radius
+- /* Light rounded corners all around the element */
 `.box-1 {
   border-radius: 20px;
 }`
@@ -161,4 +166,32 @@
 }`
 *the third value is the blur radius and the last value is the shadow color*
 
+# CSS Selectors
+- class - use a "." in front of it
+- id - use a "#" in front of it
+- "*" - all elements
+- element
+- element, element - selects multiple elements to have the same formatting
+- element element - selects all p tags for instance inside of h2
+- element>element - selects all p tags that have a parent of h2
+- element+element - selects any p element that is exactly after an h2
+- :hover
+- :first-child - targets the first child element of its parent
+- :last-child - targets the last child element of its parent
+
+# Box Model
+1. Margin - on the outside
+2. Border 
+3. Padding - around the content
+4. Content
+
+
 # Flexbox
+
+# Custom Fonts
+- google fonts
+- to ensure the user can see them, include the link in my html head and in the css file
+
+# Resources
+- css tricks website
+- paletton color picker

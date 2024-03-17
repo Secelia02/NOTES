@@ -11,7 +11,7 @@
 - tag
   : a keyword that tells a web browser how to format and display a web page. Tags are a set of characters that provide instructions for the visual content on a web page
 - element
-  : a part of a webpage that tells a web browser how to structure and interpret a part of the HTML document. HTML elements can contain formatting instructions, semantic meaning, and content and are made up of tags
+  : a part of a webpage that tells a web browser how to structure and interpret a part of the HTML document. HTML elements can contain formatting instructions, semantic meaning, and content and are made up of tags (the tag plus the content inside the tag)
 - `<h1></h1>` through `<h6></h6>`(header tags)
 - `<ul></ul>`(unordered list) with `<li></li>`(list) inside
 - `<ol></ol>` (ordered list) with `<li></li>`(list) inside
@@ -19,8 +19,12 @@
 - `<div></div>`
 - `<span></span>`
 - `<button></button>`
-- `<br>` (break) a self closing tag
-- `<img>` (image)
+- `<br>` (break) a self-closing tag
+- `<img>` (image) a self-closing tag
+- `<strong></strong>` (bold)
+- `<em></em>` (italicized)
+- `<hr>` (horizontal line) a self-closing tag
+- `<a href="https://www.google.com>New Page</a>` an anchor tag. makes hyperlinks
 
 # Attributes
 
@@ -116,6 +120,11 @@ Sign up today`
   6. Phone number field
   7. URL field
   8. Numeric field
+- Dropdown menu
+  1. `<select>`
+  2. `<option value="volvo">Volvo</option>`
+  3. `<option value="audi">Audi</option>`
+  4. `<select>`
 
 # Link
 - `<a href="https://www.shecodes.io/">SheCodes</a>`
@@ -138,3 +147,18 @@ Sign up today`
   <script src="app.js"></script>
 </body>`
 *Add right before closing the body*
+
+# !DocTYPE
+  - a declaration
+  - an instruction to the web browser about what version of HTML the page is written in
+
+# index.html
+  - common practice to use it as your homepage
+
+# Relative and Absolute Paths
+  - relative can't be accessed outside of your computer
+  - absolute can be accessed outside of your computer. No matter where you reference is, it takes you to the site
+
+# Additional Info
+  - ctrl + / to comment
+  - ctrl + U or view source will allow you to copy a website

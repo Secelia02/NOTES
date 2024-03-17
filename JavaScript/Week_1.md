@@ -95,3 +95,25 @@
   - contain methods that can be called by appending the object name with a period, the method name, and a set of parentheses
   - in `Math.random();`, Math is the built-in object
 
+# Math Methods
+  ## Math.random()
+    - returns a floating-point, random number in the range from 0 up to but not including 1
+  ## Math.floor()
+    - returns the largest integer less than or equal to the given number
+    - `console.log(Math.floor(5.95));`--output is 5
+  ## Math.round()
+    - rounds using normal conventions
+  ## Math.ceil()
+    - rounds up
+
+# Events
+  - In JavaScript, events refer to actions or occurrences that happen in a web page, such as a user clicking a button, pressing a key, or the page finishing loading. These events trigger JavaScript code to run.
+  - events:
+    1. click
+    2. dblclick
+    3. mouseover
+    4. mouseout
+    5. keydown
+    6. focus
+    7. blur
+    8. there are many others. Check MDN.
